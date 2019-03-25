@@ -1,5 +1,13 @@
 # Islandora Vagrant Base Box [![Build Status](https://travis-ci.org/Islandora-Labs/islandora_vagrant_base_box.svg?branch=master)](https://travis-ci.org/Islandora-Labs/islandora_vagrant_base_box)
 
+##Preface
+
+This project starts with the standard islandora_vagrant_base_box and attempts to make a windows10 friendly islandora_vagrant_base_box.
+
+This will have to be with windows10 Hyper-V disabled because Oracle Virtual Box and Windows10 Hyper-V cannot live in the same universe.  
+
+I changed the name to prevent myself from ever pushing this code to the original repository.  
+
 ## Introduction
 
 This is a base box for [Islandora Vagrant](https://github.com/Islandora-Labs/islandora_vagrant), and an export box lives on [atlas](https://atlas.hashicorp.com/ruebot/boxes/islandora-base).
